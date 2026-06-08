@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
     <link rel="manifest" href="./icon/site.webmanifest">
     <link rel="stylesheet" href="style.css">
-    <title>Mario Encanador</title>
+    <title>Mario Bros</title>
 </head>
 
 <body>
@@ -22,17 +22,17 @@
         <img src="./img/logo-header.png" class="logo-header" />
         <a>Home</a>
         <a onclick="showForm()">Fale Conosco</a>
-        <a href="./nossos-servicos.html">Nossos Serviços</a>
+        <!-- <a href="./nossos-servicos.html">Nossos Serviços</a> -->
     </header>
 
     <div class="container">
         <div class="background">
-            <video loop autoplay muted class="conteudo-background ">
-                <source src="./assets/video.mp4">
-            </video>
-            <!-- <img src="./img/backgroud.jpeg" class="conteudo-background"/> -->
+            <video src="./img/video.mp4" loop autoplay muted class="conteudo-background"></video>
+            
             <div class="mascara-video"></div>
         </div>
+
+        <!-- <video src="./img/video.mp4" loop autoplay muted></video> -->
                 
         <div class="sobre-nos">
             <img src="./img/logo.png" class="logo">
@@ -48,7 +48,9 @@
         </div>
 
         <img src="./img/mario.png" class="mario">
-        <a class="whatsapp"><img src="./img/whatsapp.png" /></a>
+        <a class="whatsapp" href="https://wa.me/5511997830413" target="_blank">
+            <img src="./img/whatsapp.png" />
+        </a>
 
         <form action="https://formsubmit.co/lomaski1986@gmail.com" method="POST" class="fale-conosco">
             <input type="text" name="name" placeholder="Seu Nome" required>
