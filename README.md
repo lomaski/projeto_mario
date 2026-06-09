@@ -1,1 +1,4 @@
-# projeto_mario
+# Projeto_Mario
+- HTML
+- CSS
+- JavaScript
