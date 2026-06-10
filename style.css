@@ -154,13 +154,15 @@ textarea {
 }
 
 @media (max-width: 1000px) {
-    p {
-        display: none;
-    }
-
     .caixa-mae {
         flex-direction: column;
         padding: 10px;
+    }
+
+    .container {
+        gap: 10px;
+        padding: 30px;
+        flex-direction: column;
     }
 
     .caixa-principal {
@@ -187,6 +189,23 @@ textarea {
 
     .header a {
         font-size: 18px;
+    }
+    
+    .sobre-nos {
+        max-width: 90%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        height: 300px;
+    }
+
+    p {
+        font-size: 18px;
+        text-justify: auto;
     }
 
 }
